@@ -1,0 +1,670 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #23252c;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+.card-container {
+    border-radius: 20px;
+    margin: 10% 20% 10% 20%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1b21;    
+    overflow: hidden
+}
+
+.info-section {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.img-div {
+    height: 400px;
+    background-color: white;   
+    background-image: url('images/home_pic_1.jpg');
+    background-repeat: no-repeat;
+}
+
+.info-section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+
+
+.info-section h3 {
+    text-align: center;
+    color: #fea75a;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-stretch: wider;
+    white-space: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    
+    /* transition-property: opacity;
+    transition-duration: 10s; */
+}
+
+/* .info-section h3 .text-title:hover {
+    background: radial-gradient(#fea75a,  pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.8;
+} */
+
+.info-section h3 .text-dot {
+    margin: auto 1em;
+}
+
+@media screen and (max-width: 840px) {
+    .card-container {
+        border-radius: 20px;
+        margin: 10% 10% 10% 10%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1a1b21;    
+        overflow: hidden
+    }
+
+    .info-section h3 {
+        text-align: center;
+        color: #fea75a;
+        font-weight: bold;
+        font-stretch: condensed;
+        white-space: initial;
+        font-size: 0.9em;
+    }
+    
+    .info-section h3 .text-dot {
+        margin: auto 0.2em;
+        font-size: 0.9em;
+        
+    }
+
+    .info-section h3 .text-dot:hover {
+        transform: translateX(10px);
+    }
+
+    .img-div {
+        height: 400px;
+        background-color: white;   
+        background-image: url('images/home_pic_2.jpg');
+        background-repeat: inherit;
+    }
+
+    footer i {    
+        color: #161619;
+        background-color: #918e9b;
+        margin: 15px;
+        padding: 0.25em 0.25em 0.35em 0.35em;
+        font-size: 1.2em !important;
+        border-radius: 0.2em;
+        width: 0.9em;    
+        height: 0.9em;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item:hover {
+        color: pink;
+        border-right: pink 5px solid;
+        border-top: none !important;
+        line-height: 3.3em;
+        
+    }
+
+    .active-nav-item {
+        color: pink !important;
+        border-right: pink 5px solid;
+        border-top: none !important;
+        line-height: 3.3em;
+    }
+
+  
+
+    
+}
+
+.info-section h4 {
+    margin-top: 0px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web-link:visited {
+    margin-top: 0px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.web-link:link {
+    margin-top: 0px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.web-link:hover {
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.info-section h4:hover {
+    color: #f5f5f5;
+}
+
+.info--buttons {
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    margin: 1.2em;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+
+button i {
+    padding: 0px 5px 0px 5px;
+}
+
+.button-email {
+    background-color: #ffffff;        
+}
+
+.button-linkedin {
+    background-color: #5093e2;
+    color: white;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #fea75a;
+}
+
+.about-section, .interest-section {
+    margin: 0em 3em;
+    padding: 0px 5px 0px 5px;
+    color: #f5f5f5;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-section h4, .interest-section h4 {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.more-section {
+    display: flex;
+    justify-content: flex-end;
+    color: #918e9b;
+    margin: 2em 3.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+footer {
+    background-color: #161619;
+    color: #918e9b;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
+}
+
+footer div {
+    margin: 10px 30px 10px 30px;
+    display: flex;   
+}
+
+footer i {    
+    color: #161619;
+    background-color: #918e9b;
+    margin: 20px;
+    padding: 0.25em 0.25em 0.35em 0.35em;
+    font-size: 1.5em !important;
+    border-radius: 0.2em;
+    width: 0.9em;    
+    height: 0.9em;
+}
+
+footer i:hover {    
+    color: #ffffff;
+    background-color:#fea75a;
+}
+
+
+nav {
+    /* background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); */
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-image: linear-gradient(
+        310deg,
+        hsl(322deg 13% 50%) 0%,
+        hsl(345deg 13% 50%) 7%,
+        hsl(11deg 13% 50%) 16%,
+        hsl(35deg 13% 50%) 27%,
+        hsl(60deg 13% 50%) 41%,
+        hsl(84deg 13% 50%) 56%,
+        hsl(109deg 13% 50%) 70%,
+        hsl(133deg 13% 50%) 79%,
+        hsl(158deg 13% 50%) 87%,
+        hsl(182deg 13% 50%) 92%,
+        hsl(207deg 13% 50%) 97%,
+        hsl(231deg 13% 50%) 100%
+      );      
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    min-height: 5em;
+    padding: 0em 1.5em;
+    font-family: monospace;
+}
+
+
+
+
+
+/* nav:hover {
+    padding: 0.9em;
+} */
+
+
+.nav-item {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 3.8em;
+    height: 100%;
+    padding: 0em 0.1em;
+}
+
+.nav-brand {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+    line-height: 2.8em;
+    text-decoration: none;
+}
+
+.nav-item:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    /* color: #ffffff; */
+    color: pink;
+    border-top: pink 5px solid;
+    line-height: 3.3em;
+    /* text-shadow: 0.0em 0.07em 0.07em #fff; */
+    
+}
+
+.nav-brand:hover {
+    color: pink;
+}
+
+.active-nav-item {
+    color: pink !important;
+    border-top: pink 5px solid;
+    line-height: 3.3em;
+}
+
+/* .active-nav-item:hover {
+    background-color: salmon;
+    height: 2.2em;
+    width: 5.3em;
+    border-radius: 50%;
+    opacity: 0.9;
+} */
+
+
+
+
+.intro-btns-sec {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    flex-direction: row !important;
+    width: 100%;
+    
+}
+
+
+.intro-btns {
+    display: flex;
+    flex-basis: 25%;
+    margin: 0.5em;
+    padding: 1.5em;
+    border-radius: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0s background-color;
+}
+
+.intro-btns:hover {    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    transition: delay 5s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.breadcrumb {
+    display: flex;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0em;
+    background-color: #23252c;
+    height: auto;
+}
+
+
+
+.sub-main-container {
+    background-color: #3A3D48;
+    width: 100%;
+    height: auto;
+    margin: 0% 9%;
+    border-radius: 0% 0% 2.5em 2.5em; /* was 15% */
+    font-family: monospace;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em auto;
+}
+
+.lp-images {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;    
+    margin: 1em;
+    gap: 1em;
+    padding: 0.5em;
+    padding-bottom: 3%;
+}
+
+/* .lp-images div:nth-child(1) {
+    display: flex;
+    flex-basis: 50%;
+    background-image: url('./images/home_pic_2.jpg');
+    width: 18em;
+    height: 8em;
+    border-radius: 15px;
+    border: solid 2px pink;
+} */
+
+.welcome-info {
+    display: flex;
+    flex-basis: 65%;
+    background-color: #3A3D48;
+    /* width: 18em;
+    height: 8em; */
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.welcome-info h1 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px pink;
+    color: #f5f5f5;
+    margin: 0em;
+    font-size: 2.4em;
+    /* padding: 0em; */
+}
+
+.welcome-info p {
+    font-family: monospace;
+    color: pink;
+    text-indent: 0.5em;
+    /* margin: 0em; */
+    /* padding: 0em; */
+    /* text-align: right; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400&family=Edu+SA+Beginner:wght@600&family=Noto+Sans:wght@300&family=Poppins:wght@100;300&family=Roboto:wght@100;500&display=swap');
+
+.my-info {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5em;
+    align-items: flex-end;
+    padding-right: 2em;
+}
+
+.image-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    /* margin: 0.4em; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 0.2em; */
+}
+
+.main-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    /* padding: 1em; */
+}
+
+.lp-info {
+    /* margin-right: 0.5em; */
+    margin: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.my-name {
+   
+    font-size: 1.5em;
+    color: #f5f5f5;
+}
+
+.my-title {
+    color: pink;
+    font-size: 0.8em;
+    margin-top: 0.4em;
+}
+
+.welcome-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.welcome-buttons button {
+    margin: 0.7em;
+    padding: 0.6em 1.3em;
+    width: auto;
+    /* border-radius: 6em; */
+    font-size: 0.35em;
+}
+
+.learn-more-btn {
+    color: #3a3d48;
+    border: pink solid 2px;
+    background-color: pink;
+    transition: 1s;
+}
+
+.learn-more-btn:hover {
+    color: pink;
+    background-color: transparent;
+    border: pink solid 2px;    
+}
+
+.contact-btn {
+    color: #FF8DA1;
+    background-color: transparent;
+    border: #FF8DA1 solid 2px;
+    transition: 1s;
+    
+}
+
+.contact-btn:hover {
+    color: #3a3d48;
+    border: #FF8DA1 solid 2px;
+    background-color: #FF8DA1;
+}
+
+.about-link {
+    color: pink;
+    font-size: 1.3em;
+    margin-top: 0.4em;
+}
+
+.about-link:hover {
+    opacity: 0.6;
+}
+
+.lp-second {
+    margin: 0em;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    gap: 2em;
+    margin: 4em 10em;
+    padding: 2em 2em;
+    
+}
+
+.lp-second div {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    height: auto;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lp-second img {
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+}
+
+.anima-title {
+    text-shadow: 3px 3px #886ce4;
+    /* transition: 5ms; */
+}
+
+.anima-title:hover {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 840px) {
+    .lp-images {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        width: auto;
+        margin: 1em;
+        gap: 1.5em;
+        padding: 0.5em;
+    }
+
+    .welcome-info p {
+        font-family: monospace;
+        color: pink;
+        text-align: center;
+        /* margin: 0em; */
+        /* padding: 0em; */
+        /* text-align: right; */
+    }
+
+    .welcome-info h1 {
+        font-size: 2em;
+        /* padding: 0em; */
+    }
+
+}
+
+
+
+

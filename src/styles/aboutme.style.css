@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400&family=Edu+SA+Beginner:wght@600&family=Noto+Sans:wght@300&family=Poppins:wght@100;300&family=Roboto:wght@100;500&display=swap');
+.aboutme-container {
+    padding: 0em 0em;
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0em;
+    
+}
+
+.breadcrumb-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3a3d48;
+    color: pink;
+}
+
+.breadcrumb-div h1 {
+    margin: 1em 1em;
+}
+
+.breadcrumb-div h3 {
+    margin: 1em 1em;
+}
+
+.breadcrumb-link:hover {
+    color: #fff;
+}
+
+.about-main-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 2em 7em;
+    background-color: transparent;
+}
+
+.greet {
+    display: flex;
+    flex-basis: 30%;
+    padding: 1em;
+    font-size: x-large;
+    text-align: left;
+    color: #fff;
+}
+
+.intro {
+    display: flex;
+    flex-basis: 100%;
+    padding: 1em;
+    font-size: larger;
+    text-align: left;
+    color: #fff;
+}
+
+.br-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    color: pink;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    color: pink;
+}
+
+.br-point span {
+    margin: 0.1em;
+}
+
+.abt-link:hover {
+    /* color: #886ce4; */    
+    /* color: #79db75; */
+    color: #bb9dd5;
+}
+
+.intro a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 840px) {
+    .about-main-intro {
+        flex-direction: column;
+    }
+
+    .intro {
+        text-align: justify;
+    }
+
+    .br-point {
+        font-size: 1.7em;
+    }
+
+    .greet {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-main-intro {
+        flex-direction: column;
+        margin: 2em 3em;
+    }
+}

@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400&family=Edu+SA+Beginner:wght@600&family=Noto+Sans:wght@300&family=Poppins:wght@100;300&family=Roboto:wght@100;500&display=swap');
+.skills-container {
+    padding: 0em 0em;
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0em;
+    
+}
+
+.breadcrumb-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3a3d48;
+    color: pink;
+}
+
+.breadcrumb-div h1 {
+    margin: 1em 1em;
+}
+
+.breadcrumb-div h3 {
+    margin: 1em 1em;
+}
+
+.breadcrumb-link:hover {
+    color: #fff;
+}
+
+.skills-main-intro {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;    
+    margin: 2em 7em;
+    background-color: transparent;
+}
+
+.skills-main {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;    
+    align-items: center;
+    margin: 2em 7em;
+    background-color: transparent;
+}
+
+.sub-menu {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-end;
+    margin: 0.5em;
+    background: transparent;
+    align-items: flex-end;
+}
+
+.sub-menu-child {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
+.sub-menu-child a:hover {
+    text-decoration: underline;
+}
+
+.cr-main-intro {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin: 1em 4em 1em 4em;
+    background-color: transparent;
+}
+
+.current-role {
+    width: 100%;
+    border-radius: 20px;
+    /* border: #fff solid 3px; */
+    display: flex;
+    flex-direction: column;
+    padding: 0em;
+    overflow: hidden;
+    
+}
+
+.current-role-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: #3a3d48;
+}
+
+.current-role-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #3E3A48;
+
+}
+
+.current-role-intro {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #515564; */
+}
+
+.current-role-info {
+    padding: 0.5em 1em 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    flex-basis: 34%;
+    background-color: #515564;
+    border-radius: 20px;
+}
+
+.cri-flex-start {
+    justify-content: flex-start;
+}
+
+.cri-flex-start {
+    justify-content: center;
+}
+
+.current-role-responsibilities {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: auto;
+    width: auto;
+    background-color: #515564;
+    border-radius: 20px;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.current-role-intro div {
+    margin: 0.7em;
+}
+
+.current-role-info .role-title {
+    color: #fff !important;
+    margin: 0.3em 0em 0.4em 0em;
+    white-space: nowrap;
+}
+
+.at {
+    font-size: x-large;
+    color: peachpuff;
+}
+
+.role-at {
+    color: #FFC0CB;
+    text-decoration: none;
+}
+
+.role-at:hover {
+    text-decoration: underline;
+}
+
+.role-at:visited {
+    text-decoration: none;
+}
+
+
+
+/* .current-role-info section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+
+.timespan {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    background-color: #3E3A48;
+    border-radius: 10px;
+    padding: 0.1em 0.7em 0.2em  0.7em;
+    margin: 0.5em 0em;
+    font-size: 0.9em;
+    width: max-content;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin: 0em;
+    color: #fff;
+    float: right;
+}
+
+.next:hover {    
+    outline: solid 2px pink;
+    background-color: pink;
+}
+
+.roles-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.role-type {
+    color: #fff;
+    margin-left: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.li-task {
+    color: #fff;
+}
+
+.skills-main-intro {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+    margin: 0.7em;
+    transition: 5s;
+}
+
+.skill-div:hover {
+    justify-content: space-around;
+    /* margin-top: 0.5em; */
+}
+
+/* .skills-main-intro:hover .skill-div:hover {
+    justify-content: space-around;
+    margin-top: 0.5em;
+} */
+
+.skill-div span {
+    margin: 0.3em;
+    padding: 0.1em 0.3em;
+}
+
+
+
+.skill-div span:nth-child(1):hover {
+    color: pink;
+}
+
+.skill-div span:nth-child(2):hover {
+    color: aqua;
+}
+
+.skill-div span:nth-child(3):hover {
+    color: slateblue;
+}
+
+.skill-div span:nth-child(4):hover {
+    color: skyblue;
+}
+.skill-div span:nth-child(5):hover {
+    color: greenyellow;
+}
+.skill-div span:nth-child(6):hover {
+    color: pink;
+}
+
+@media screen and (max-width: 840px) {
+    .current-role-intro {
+        display: flex;
+        flex-direction: column;
+        /* background-color: #515564; */
+    } 
+}
